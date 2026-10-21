@@ -10,7 +10,7 @@ Esta ferramenta é ideal para pesquisadores e usuários que precisam de uma solu
 
 ### Arquitetura e APIs Nativas Consumidas
 
-Para garantir máxima segurança, performance e transparência, o script foi desenvolvido em **Vanilla JavaScript** e não depende de nenhuma biblioteca de terceiros, extensão ou comunicação com servidores externos. Todo o processamento ocorre no lado do cliente (*client-side*) utilizando as seguintes interfaces nativas dos navegadores modernos:
+Para garantir máxima segurança, performance e transparência, o script foi desenvolvido em **JavaScript** e não depende de nenhuma biblioteca de terceiros, extensão ou comunicação com servidores externos. Todo o processamento ocorre no lado do cliente (*client-side*) utilizando as seguintes interfaces nativas dos navegadores modernos:
 
 * **DOM API:** Responsável por localizar o elemento de mídia alvo (a tag de vídeo) na página e por construir dinamicamente o painel visual flutuante de gravação (UI) sem a necessidade de injetar HTML bruto via `innerHTML`.
 * **Media Capture API:** Emprega o método `captureStream()` para interceptar e extrair as faixas de áudio que o próprio navegador já decodificou, redirecionando esse fluxo.
